@@ -37,7 +37,7 @@ body {
   animation: fadeInUp 1s ease forwards;
 }
 
-/*---Fade-in Animation---*/
+/*---Fade-up Animation---*/
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -89,10 +89,23 @@ h2:hover {
   color: #9d7c64;
 }
 
+/*---Section divider design---*/
+section + section:before {
+  content:"🧶 🪡 🧵";
+  display: block;
+  text-align: center;
+  margin: 30px 0;
+  font-size: 1.2em;
+  color: #b68a72;
+  opacity: 0;
+  animation: fadeIn 1.5s ease forwards;
+}
+
 /*---Text---*/
 p {
   margin-bottom: 18px;
   font-size: 1.05em;
+  animation: fadeInUp 1s ease fowards;
 }
 
 /*---Lists---*/
@@ -107,12 +120,53 @@ li {
   padding: 10px 14px;
   margin-bottom: 10px;
   border-radius: 8px;
-  transition: background 0.3s ease;
+  transition: background 0.3s ease, transform 0.2s ease;
 }
 
 li:hover {
   background: #fef4eb;
+  transform: tranlateX(4px);
 }
+
+/*---Inline code parts---*/
+code {
+  background-color: #f4ece6;
+  padding: 28px;
+  border-radius:4px;
+  font-family: monospace;
+  color: #5a4638
+}
+
+/*---Section boxes---*/
+section {
+  background-color: #fffefb;
+  border: 1px dashed #f0dfcd;
+  border-radius:12px;
+  padding: 20px 24px;
+  margin-bottom: 30px;
+  opacity: 0;
+  animation: fadeInUp 1.2s ease forwards;
+}
+
+/*---Footer---*/
+footer {
+  text-align: center;
+  font-size: 0.95em;
+  color: #7c6b5a;
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 2px dashed #e8d6c3;
+  opacity: 0;
+  animation: fadeIn 1.5s ease forwards;
+}
+
+footer strong {
+  color: #6b4e3d;
+}
+
+
+
+
 
 
 
