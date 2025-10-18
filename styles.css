@@ -8,3 +8,46 @@ body {
   line-height: 1.7;
 }
 
+/*---Page container---*/
+.container {
+  width: 90%;
+  max-width: 850px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  padding: 40px 50px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.container:hover {
+  tranform: scale(1.01);
+  bow-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/*---Header---*/
+header {
+  text-align: center:
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
