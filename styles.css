@@ -6,10 +6,10 @@ body {
   color: #3a2f27;
   line-height: 1.7;
   background-color: #fffaf6;
-  background-image: linear-gradiant(45deg, #fef7f2 25%, transparent 25%),
-                    linear-gradiant(-45deg, #fef7f2 25%, transparent 25%),
-                    linear-gradiant(45deg, transparent 75% #fef7f2 75%),
-                    linear-gradiant(-45deg, transparent 75% #fef7f2 75%),
+  background-image: linear-gradient(45deg, #fef7f2 25%, transparent 25%),
+                    linear-gradient(-45deg, #fef7f2 25%, transparent 25%),
+                    linear-gradient(45deg, transparent 75%, #fef7f2 75%),
+                    linear-gradient(-45deg, transparent 75%, #fef7f2 75%),
   background-size:30px 30px;
   background-position: 0 0, 0 15px, 15px -15px, -15px 0px;
   animation: subtleMove 20s infinite linear;
@@ -33,15 +33,15 @@ body {
   padding: 40px 50px;
   border: 2px dashed #e6d2c3;
   opacity: 0;
-  transform: tranlateY(20px);
-  animation: fadeInUp 1s ease forward;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease forwards;
 }
 
 /*---Fade-in Animation---*/
-@keygrames fadeInUp {
+@keyframes fadeInUp {
   from {
-    opacity:0;
-    transform: tranlateY(20px);
+    opacity: 0;
+    transform: translateY(20px);
   }
   to {
     opacity: 1;
@@ -51,9 +51,9 @@ body {
 
 /*---Header---*/
 header {
-  text-align: center:
+  text-align: center;
   margin-bottom: 40px;
-  animation: fadeIn 1.5s ease forward;
+  animation: fadeIn 1.5s ease forwards;
 }
 
 header h1 {
