@@ -105,7 +105,7 @@ section + section:before {
 p {
   margin-bottom: 18px;
   font-size: 1.05em;
-  animation: fadeInUp 1s ease fowards;
+  animation: fadeInUp 1s ease forwards;
 }
 
 /*---Lists---*/
@@ -125,7 +125,7 @@ li {
 
 li:hover {
   background: #fef4eb;
-  transform: tranlateX(4px);
+  transform: translateX(4px);
 }
 
 /*---Inline code parts---*/
