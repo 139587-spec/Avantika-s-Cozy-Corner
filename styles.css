@@ -1,1 +1,10 @@
+/*---Base page setup---*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Georgia","Times New Roman", serif;
+  background: linear-gradient(to bottom right, #fdf8f4, #fceee4);
+  color: #3a2f27;
+  line-height: 1.7;
+}
 
