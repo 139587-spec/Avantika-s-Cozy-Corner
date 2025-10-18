@@ -9,7 +9,7 @@ body {
   background-image: linear-gradient(45deg, #fef7f2 25%, transparent 25%),
                     linear-gradient(-45deg, #fef7f2 25%, transparent 25%),
                     linear-gradient(45deg, transparent 75%, #fef7f2 75%),
-                    linear-gradient(-45deg, transparent 75%, #fef7f2 75%),
+                    linear-gradient(-45deg, transparent 75%, #fef7f2 75%);
   background-size:30px 30px;
   background-position: 0 0, 0 15px, 15px -15px, -15px 0px;
   animation: subtleMove 20s infinite linear;
