@@ -5,7 +5,7 @@ body {
   font-family: "Georgia","Times New Roman", serif;
   color: #3a2f27;
   line-height: 1.7;
-  background-color: #fffaf6;
+  background-color: #fff0f5;
   background-image: linear-gradient(45deg, #fef7f2 25%, transparent 25%),
                     linear-gradient(-45deg, #fef7f2 25%, transparent 25%),
                     linear-gradient(45deg, transparent 75%, #fef7f2 75%),
@@ -31,7 +31,7 @@ body {
   border-radius: 20px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
   padding: 40px 50px;
-  border: 2px dashed #e6d2c3;
+  border: 2px dashed #f5cce0;
   opacity: 0;
   transform: translateY(20px);
   animation: fadeInUp 1s ease forwards;
@@ -58,13 +58,13 @@ header {
 
 header h1 {
   font-size: 2.2em;
-  color: #6b4e3d;
+  color: #a64d7e;
   margin-bottom: 6px;
 }
 
 .subtitle {
   font-style: italic;
-  color: #a68b73;
+  color: #c184b4;
   font-size: 1.1em;
 }
 
@@ -76,7 +76,7 @@ header h1 {
 
 /*---Section titles---*/
 h2 {
-  color: #6b4e3d;
+  color: #a64d7e;
   border-left: 4px solid #d8b597;
   padding-left: 12px;
   margin-top: 40px;
@@ -115,8 +115,8 @@ ul {
 }
 
 li {
-  background: #fff9f5;
-  border-left: 4px solid #e3c3a3;
+  background: #ffe6f3;
+  border-left: 4px solid #f5cce0;
   padding: 10px 14px;
   margin-bottom: 10px;
   border-radius: 8px;
@@ -124,13 +124,13 @@ li {
 }
 
 li:hover {
-  background: #fef4eb;
+  background: #ffd9eb;
   transform: translateX(4px);
 }
 
 /*---Inline code parts---*/
 code {
-  background-color: #fdf6f0;
+  background-color: #fff0f5;
   padding: 2px 4px;
   border-radius: 3px;
   font-size: 0.95em;
@@ -139,8 +139,8 @@ code {
 
 /*---Section boxes---*/
 section {
-  background-color: #fffefb;
-  border: 1px dashed #f0dfcd;
+  background-color: #fff1f8;
+  border: 1px dashed #f4d0e0;
   border-radius:12px;
   padding: 20px 24px;
   margin-bottom: 30px;
@@ -152,7 +152,7 @@ section {
 footer {
   text-align: center;
   font-size: 0.95em;
-  color: #7c6b5a;
+  color: #a67a9a;
   margin-top: 50px;
   padding-top: 20px;
   border-top: 2px dashed #e8d6c3;
@@ -161,7 +161,7 @@ footer {
 }
 
 footer strong {
-  color: #6b4e3d;
+  color: #a64d7e;
 }
 
 /*---Screen adjustments---*/
