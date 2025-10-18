@@ -71,10 +71,10 @@ header h1 {
 /*---Header with images---*/
 .header-with-images {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 20px;
-  margin-bottom: 40px;
 }
 
 .header-text {
