@@ -31,6 +31,53 @@ header {
   margin-bottom: 40px;
 }
 
+header h1 {
+  font-size: 2.2em;
+  color: #6b4e3d;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  font-style: italic;
+  color: #a68b73;
+  font-size: 1.1em;
+}
+
+/*---Section titles---*/
+h2 {
+  color: #6b4e3d;
+  border-left: 4px solid #d8b597;
+  padding-left: 12px;
+  margin-top: 40px;
+  margin-bottom: 16px;
+  font-size: 1.5em;
+}
+
+/*---Text---*/
+p {
+  margin-bottom: 18px;
+  font-size: 1.05em;
+}
+
+/*---Lists---*/
+ul {
+  padding-left: 28px;
+  list-style-type: none;
+}
+
+li {
+  background: #fff9f5;
+  border-left: 4px solid #e3c3a3;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+li:hover {
+  background: #fef4eb;
+}
+
 
 
 
