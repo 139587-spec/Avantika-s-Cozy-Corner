@@ -3,9 +3,23 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Georgia","Times New Roman", serif;
-  background: linear-gradient(to bottom right, #fdf8f4, #fceee4);
   color: #3a2f27;
   line-height: 1.7;
+  background-color: #fffaf6;
+  background-image: linear-gradiant(45deg, #fef7f2 25%, transparent 25%),
+                    linear-gradiant(-45deg, #fef7f2 25%, transparent 25%),
+                    linear-gradiant(45deg, transparent 75% #fef7f2 75%),
+                    linear-gradiant(-45deg, transparent 75% #fef7f2 75%),
+  background-size:30px 30px;
+  background-position: 0 0, 0 15px, 15px -15px, -15px 0px;
+  animation: subtleMove 20s infinite linear;
+}
+
+/*---Background soft animation---*/
+@keyframes subtleMove {
+  0% { background-position: 0 0, 0 15px, 15px -15px, -15px 0px; }
+  50% { background-position: 5px 5px, 5px 20px, 20px -10px, -10px 5px; }
+  100% { background-position: 0 0, 0 15px, 15px -15px, -15px 0px; }
 }
 
 /*---Page container---*/
@@ -17,7 +31,10 @@ body {
   border-radius: 20px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
   padding: 40px 50px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 2px dashed #e6d2c3;
+  opacity: 0;
+  transform: tranlateY(20px);
+  animation: fadeInUp 1s ease forward;
 }
 
 .container:hover {
