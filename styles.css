@@ -74,7 +74,7 @@ header h1 {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  margin-bottom:40px;
+  margin-bottom: 40px;
 }
 
 .header-text {
@@ -82,7 +82,7 @@ header h1 {
 }
 
 .header-img {
-  width: 60px;
+  width: 30px;
   height: auto;
   animation: float 3s ease-in-out infinite alternate;
 }
