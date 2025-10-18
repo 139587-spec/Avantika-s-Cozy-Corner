@@ -130,11 +130,11 @@ li:hover {
 
 /*---Inline code parts---*/
 code {
-  background-color: #f4ece6;
-  padding: 28px;
-  border-radius:4px;
-  font-family: monospace;
-  color: #5a4638
+  background-color: #fdf6f0;
+  padding: 2px 4px;
+  border-radius:3px;
+  font-size: 0.95em;
+  color: #6b4e3d;
 }
 
 /*---Section boxes---*/
