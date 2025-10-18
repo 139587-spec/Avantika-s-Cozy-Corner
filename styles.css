@@ -164,6 +164,26 @@ footer strong {
   color: #6b4e3d;
 }
 
+/*---Screen adjustments---*/
+@media (max-width: 600px) {
+  .container {
+    padding: 25px;
+  }
+
+  header h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  p, li {
+    font-size: 1em;
+  }
+}
+
+
 
 
 
