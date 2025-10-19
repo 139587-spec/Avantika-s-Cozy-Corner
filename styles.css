@@ -82,7 +82,7 @@ header h1 {
 }
 
 .header-img {
-  width: 30px;
+  width: 145px;
   height: auto;
   animation: float 3s ease-in-out infinite alternate;
 }
