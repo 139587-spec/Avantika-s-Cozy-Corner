@@ -38,4 +38,6 @@ Check out my live webpage here:
 
 *Made with ☕, yarn, and a love for stories - by Avantika Satheesh*
 
+Make sure you check out more of Athena Awards cool competitions! The link is down below!
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
 
