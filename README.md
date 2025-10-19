@@ -18,6 +18,12 @@ I wanted to have a personal webpage that reflects on my hobbies adn my journey l
 bit of code. Although I do basics at school, it has been wonderful stringing all my ideas into 
 one project!
 
+## Challenges and Lessons Learned
+I learned a lot about CSS animations and HTML while building this page. At first, figuring out how to center the header images and make them float smoothly was tricky, but experimenting and testing in the browser helped me understand it better. I also learned how to make a page responsive and how small design details can make a big difference in user experience. Afterwards, I started to use a little harder concepts to make my webpage aesthetically pleasing :)
+
+## What You Can Do Here
+Feel free to explore my hobbies and web journey! Each section of the site is structured like a personal journal, highlighting both what I love and the things I’ve learned along the way.
+
 ## Tech I Used 💻
 Here's a peek at all the tools and code I used to bring my webpage to life:
 - **HTML** - To structure all the sections and content.
@@ -26,7 +32,7 @@ Here's a peek at all the tools and code I used to bring my webpage to life:
 
 ## Links
 Check out my live webpage here:
-[Avantika's Cozy Corner] (PUT THE FINISHED LINK HERE)
+[Avantika's Cozy Corner] https://139587-spec.github.io/Avantika-s-Cozy-Corner/
 
 ---
 
