@@ -4,7 +4,7 @@ body {
   padding: 0;
   font-family: "Georgia","Times New Roman", serif;
   color: #6b3a57;
-  line-height: 1.7;
+  line-height: 1.6;
   background-color: #fff0f5;
 }
 
@@ -14,21 +14,18 @@ body {
   width: 90%;
   max-width: 850px;
   margin: 40px auto;
-  background-color: #fff8fb;
-  border-radius: 20px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-  padding: 40px 50px;
+  background: #fff8fb;
+  border-radius: 28px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07);
+  padding: 35px 50px;
   border: 2px dashed #f5cce0;
   opacity: 0;
-  transform: translateY(20px);
-  animation: fadeInUp 1s ease forwards;
 }
 
 /*---header section---*/
 header {
   text-align: center;
   margin-bottom: 40px;
-  animation: fadeIn 1.5s ease forwards;
 }
 
 header h1 {
@@ -48,7 +45,7 @@ header h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 18px;
 }
 
 .header-text {
@@ -70,11 +67,10 @@ header h1 {
 h2 {
   color: #a64d7e;
   border-left: 4px solid #d8b597;
-  padding-left: 12px;
-  margin-top: 40px;
-  margin-bottom: 16px;
-  font-size: 1.5em;
-  transition: color 0.3s ease;
+  padding-left: 10px;
+  margin-top: 35px;
+  margin-bottom: 12px;
+  font-size: 1.4em;
 }
 
 h2:hover {
@@ -87,17 +83,14 @@ section + section:before {
   display: block;
   text-align: center;
   margin: 30px 0;
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: #b68a72;
-  opacity: 0;
-  animation: fadeIn 1.5s ease forwards;
 }
 
 /*---the MAIN text---*/
 p {
   margin-bottom: 18px;
   font-size: 1.05em;
-  animation: appear 1s ease forwards;
 }
 
 /*---list of hobbies---*/
@@ -110,14 +103,13 @@ li {
   background: #ffe6f3;
   border-left: 4px solid #f5cce0;
   padding: 10px 14px;
-  margin-bottom: 10px;
-  border-radius: 8px;
+  margin-bottom: 8px;
+  border-radius: 6px;
   transition: background 0.3s ease, transform 0.2s ease;
 }
 
 li:hover {
   background: #ffd9eb;
-  transform: translateX(4px);
 }
 
 /*---the code that is inline in para---*/
@@ -136,8 +128,6 @@ section {
   border-radius:12px;
   padding: 20px 24px;
   margin-bottom: 30px;
-  opacity: 0;
-  animation: fadeInUp 1.2s ease forwards;
 }
 
 /*---footer---*/
@@ -148,8 +138,6 @@ footer {
   margin-top: 50px;
   padding-top: 20px;
   border-top: 2px dashed #e8d6c3; /*nice aesthetic colors*/
-  opacity: 0;
-  animation: fadeIn 1.5s ease forwards;
 }
 
 footer strong {
