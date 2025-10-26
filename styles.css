@@ -1,4 +1,4 @@
-/*---Base page setup---*/
+/*---the set up for the page - base---*/
 body {
   margin: 0;
   padding: 0;
@@ -6,6 +6,8 @@ body {
   color: #6b3a57;
   line-height: 1.7;
   background-color: #fff0f5;
+  
+  /*checkered background*/
   background-image: linear-gradient(45deg, #ffd8ef 25%, transparent 25%),
                     linear-gradient(-45deg, #ffd8ef 25%, transparent 25%),
                     linear-gradient(45deg, transparent 75%, #ffd8ef 75%),
@@ -15,14 +17,14 @@ body {
   animation: subtleMove 20s infinite linear;
 }
 
-/*---Background soft animation---*/
+/*---bg animations---*/
 @keyframes subtleMove {
   0% { background-position: 0 0, 0 15px, 15px -15px, -15px 0px; }
   50% { background-position: 5px 5px, 5px 20px, 20px -10px, -10px 5px; }
   100% { background-position: 0 0, 0 15px, 15px -15px, -15px 0px; }
 }
 
-/*---Page container---*/
+/*---the container for page---*/
 .container {
   width: 90%;
   max-width: 850px;
@@ -37,7 +39,7 @@ body {
   animation: fadeInUp 1s ease forwards;
 }
 
-/*---Fade-up Animation---*/
+/*---the fading animation---*/
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -49,7 +51,7 @@ body {
   }
 }
 
-/*---Header---*/
+/*---header section---*/
 header {
   text-align: center;
   margin-bottom: 40px;
@@ -68,7 +70,7 @@ header h1 {
   font-size: 1.1em;
 }
 
-/*---Header with images---*/
+/*---header imgs---*/
 .header-with-images {
   display: flex;
   flex-direction: row;
@@ -87,7 +89,7 @@ header h1 {
   animation: float 3s ease-in-out infinite alternate;
 }
 
-@keyframes float {
+@keyframes floaty{
   from { transform: translateY(0px); }
   to { transform: translateY(-5px); }
 }
@@ -98,7 +100,7 @@ header h1 {
   to { opacity: 1; }
 }
 
-/*---Section titles---*/
+/*---section titles---*/
 h2 {
   color: #a64d7e;
   border-left: 4px solid #d8b597;
@@ -113,7 +115,7 @@ h2:hover {
   color: #9d7c64;
 }
 
-/*---Section divider design---*/
+/*---the divider for the sections---*/
 section + section:before {
   content:"🧶 🪡 🧵";
   display: block;
@@ -125,14 +127,14 @@ section + section:before {
   animation: fadeIn 1.5s ease forwards;
 }
 
-/*---Text---*/
+/*---the MAIN text---*/
 p {
   margin-bottom: 18px;
   font-size: 1.05em;
   animation: fadeInUp 1s ease forwards;
 }
 
-/*---Lists---*/
+/*---list of hobbies---*/
 ul {
   padding-left: 28px;
   list-style-type: none;
@@ -152,19 +154,19 @@ li:hover {
   transform: translateX(4px);
 }
 
-/*---Inline code parts---*/
+/*---the code that is inline in para---*/
 code {
-  background-color: #fff0f5;
+  background-color: #fff0f5;/*a lighter pinky shade*/
   padding: 2px 4px;
   border-radius: 3px;
   font-size: 0.95em;
   color: #6b4e3d;
 }
 
-/*---Section boxes---*/
+/*---the boxes around the sections---*/
 section {
   background-color: #fff4fb;
-  border: 1px dashed #f4d0e0;
+  border: 1px dashed #f4d0e0;/*nice pink shade*/
   border-radius:12px;
   padding: 20px 24px;
   margin-bottom: 30px;
@@ -172,14 +174,14 @@ section {
   animation: fadeInUp 1.2s ease forwards;
 }
 
-/*---Footer---*/
+/*---footer---*/
 footer {
   text-align: center;
   font-size: 0.95em;
   color: #a67a9a;
   margin-top: 50px;
   padding-top: 20px;
-  border-top: 2px dashed #e8d6c3;
+  border-top: 2px dashed #e8d6c3; /*nice aesthetic colors*/
   opacity: 0;
   animation: fadeIn 1.5s ease forwards;
 }
@@ -188,7 +190,7 @@ footer strong {
   color: #a64d7e;
 }
 
-/*---Screen adjustments---*/
+/*---screen adjustements for phone users---*/
 @media (max-width: 600px) {
   .container {
     padding: 25px;
